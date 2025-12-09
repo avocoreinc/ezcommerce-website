@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 
-import ClientsCarousel from '@/components/sections/clients-carousel';
+import ClientsCarousel from '@/components/clients-carousel';
 import ContactSection from '@/components/sections/home/contact';
 import FeatureCards from '@/components/sections/feature-cards';
 import Testimonials from '@/components/sections/testimonials';
