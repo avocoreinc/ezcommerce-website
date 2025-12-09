@@ -1,0 +1,73 @@
+export const DUPLICATE_COUNT = 3;
+export const CLIENT_CAROUSEL_LOGOS = [
+  {
+    key: 'vrd-socks',
+    src: '/client-logos/vrd-socks.svg',
+    alt: 'VRD Socks',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'alize',
+    src: '/client-logos/alize.svg',
+    alt: 'Alizé',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'alton',
+    src: '/client-logos/alton.svg',
+    alt: 'Alton',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'bayelon',
+    src: '/client-logos/bayelon.svg',
+    alt: 'Bayelon',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'culver',
+    src: '/client-logos/culver.png',
+    alt: 'Culver',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'garisar',
+    src: '/client-logos/garisar.svg',
+    alt: 'Garisar',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'sarahs-candy-factory',
+    src: '/client-logos/sarahs-candy-factory.png',
+    alt: 'Sarah Candy',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'tayfus',
+    src: '/client-logos/tayfus.svg',
+    alt: 'Tayfus',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'tek-cabinets',
+    src: '/client-logos/tek-cabinets.svg',
+    alt: 'Tek Cabinets',
+    width: 120,
+    height: 120,
+  },
+  {
+    key: 'w-kitchen-and-bath',
+    src: '/client-logos/w-kitchen-and-bath.svg',
+    alt: 'W Kitchen and Bath',
+    width: 120,
+    height: 120,
+  },
+] as const;
