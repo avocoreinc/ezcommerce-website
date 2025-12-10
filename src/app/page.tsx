@@ -7,11 +7,10 @@ import ClientsCarousel from '@/components/clients-carousel';
 import ContactSection from '@/components/sections/home/contact';
 import FeatureCards from '@/components/sections/feature-cards';
 import Testimonials from '@/components/sections/testimonials';
-import Partners from '@/components/sections/partners';
-import Mission from '@/components/sections/mission';
 import Footer from '@/components/footer/footer';
 import FAQ from '@/components/sections/faq';
 import Hero from '@/components/hero';
+import Partners from '@/components/sections/home/partners';
 
 export default function Home() {
   return (
@@ -20,14 +19,13 @@ export default function Home() {
         <Hero />
         <div>
           <Box mt={10}>
-            <Partners />
-          </Box>
-          <Box mt={10}>
             <ClientsCarousel />
           </Box>
+
           <Box mt={10}>
-            <Mission />
+            <Partners />
           </Box>
+
           <Box mt={10}>
             <Testimonials />
           </Box>
