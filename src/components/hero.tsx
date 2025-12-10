@@ -6,10 +6,7 @@ import Box from '@mui/material/Box';
 
 export default function Hero() {
   return (
-    <Box
-      id="hero-section"
-      sx={{ position: 'relative', pt: 45, height: '1050px' }}
-    >
+    <Box id="hero-section" sx={{ position: 'relative', py: 40 }}>
       <Image
         src="/hero-section/clouds.jpg"
         alt="Hero Section Background"
@@ -21,15 +18,19 @@ export default function Hero() {
         }}
       />
 
-      <Container sx={{ height: '500px' }}>
+      <Container maxWidth="xl">
         <Typography
           variant="h1"
           color="white"
           fontWeight={700}
-          sx={{ fontSize: { xs: 30, md: 100 } }}
           textAlign="center"
         >
-          Holistic eCommerce Growth No Gaps. No Stress.
+          <Box sx={{ fontSize: { xs: 50, md: 100 } }}>
+            Holistic eCommerce Growth
+          </Box>
+          <Box sx={{ fontSize: { xs: 30, md: 50 }, mt: 1 }}>
+            No Gaps. No Stress.
+          </Box>
         </Typography>
 
         <Typography
