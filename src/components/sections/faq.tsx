@@ -4,16 +4,22 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Typography from '@mui/material/Typography';
 import Accordion from '@mui/material/Accordion';
 import Container from '@mui/material/Container';
-import Paper from '@mui/material/Paper';
+import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 
 export default function FAQ() {
   return (
     <Container>
-      <Paper
+      <Card
+        elevation={0}
         sx={{
+          borderRadius: 4,
+          backdropFilter: 'blur(4px)',
+          backgroundColor: 'rgba(255, 255, 255, 0.4)',
           p: '30px 40px',
+          boxShadow:
+            '0 2px 8px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.16)',
         }}
       >
         <Box>
@@ -148,7 +154,7 @@ export default function FAQ() {
             ></Typography>
           </Box>
         </Stack>
-      </Paper>
+      </Card>
     </Container>
   );
 }

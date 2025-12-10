@@ -36,6 +36,9 @@ export default function TestimonialCard({
     <Card
       elevation={0}
       sx={{
+        backdropFilter: 'blur(4px)',
+        backgroundColor: 'rgba(255, 255, 255, 0.4)',
+
         boxShadow:
           '0 2px 8px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.16)',
         flexDirection: 'column',

@@ -22,6 +22,8 @@ export default function FeatureCard({
     <Card
       elevation={0}
       sx={{
+        backdropFilter: 'blur(4px)',
+        backgroundColor: 'rgba(255, 255, 255, 0.4)',
         border: '1px solid',
         borderColor: 'divider',
         borderRadius: 4,
