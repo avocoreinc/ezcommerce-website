@@ -45,7 +45,7 @@ export default function Navbar() {
         boxShadow: 0,
         bgcolor: 'transparent',
         backgroundImage: 'none',
-        mt: '3rem',
+        mt: '1.5rem',
       }}
     >
       <Container maxWidth="lg">
