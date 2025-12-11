@@ -104,8 +104,8 @@ export default function TestimonialCard({
         <Box
           sx={{
             position: 'relative',
-            width: 130,
-            height: 100,
+            width: 140,
+            height: 120,
             margin: '0 auto',
           }}
         >
@@ -127,8 +127,8 @@ export default function TestimonialCard({
             <Image
               src={logoSrc}
               alt={`${author} logo`}
-              width={110}
-              height={90}
+              width={140}
+              height={130}
               style={{ objectFit: 'contain' }}
             />
 
