@@ -5,6 +5,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
 import Navbar from '@/components/nav-bar';
+import Header from '@/components/header';
 import theme from '@/theme';
 
 const parkinsans = Parkinsans({
@@ -26,9 +27,10 @@ export default function RootLayout({
           <CssBaseline enableColorScheme />
           <ThemeProvider theme={theme}>
             <div style={{ height: '4000px' }}>
-              <header>
+              <Header />
+              {/* <header>
                 <Navbar />
-              </header>
+              </header> */}
               <main>{children}</main>
             </div>
           </ThemeProvider>
