@@ -6,10 +6,14 @@ const rainbowGradient = `linear-gradient(120deg, #ff4d4d, #ffa64d, #ffff4d, #4df
 const maskStyle = `linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)`;
 
 type CTAButtonPropTypes = {
+  isScrolled?: boolean;
   fullWidth?: boolean;
 };
 
-export default function CTAButton({ fullWidth = false }: CTAButtonPropTypes) {
+export default function CTAButton({
+  isScrolled = false,
+  fullWidth = false,
+}: CTAButtonPropTypes) {
   return (
     <Button
       fullWidth={fullWidth}
@@ -24,7 +28,7 @@ export default function CTAButton({ fullWidth = false }: CTAButtonPropTypes) {
         position: 'relative',
         borderRadius: '50px',
         overflow: 'hidden',
-        color: '#ff911b',
+        color: isScrolled ? '#fff' : '#1a1a1a',
         fontSize: '1rem',
         fontWeight: 500,
         p: '10px 28px',

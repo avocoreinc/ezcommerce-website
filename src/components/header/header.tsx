@@ -61,7 +61,7 @@ function Header() {
           <NavLinks isScrolled={scrolled} />
 
           {/* CTA BUTTON */}
-          <CTAButton />
+          <CTAButton isScrolled={scrolled} />
 
           {/* MOBILE NAVIGATION (SHOWN ONLY ON MOBILES) */}
           <MobileNav isScrolled={scrolled} />
