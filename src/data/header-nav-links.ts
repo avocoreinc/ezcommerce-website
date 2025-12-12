@@ -21,7 +21,7 @@ export const headerNavLinks = [
     href: '#',
   },
   {
-    label: 'Support',
+    label: 'Contact',
     href: '#',
   },
 ];
