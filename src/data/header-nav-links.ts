@@ -1,7 +1,16 @@
 export const headerNavLinks = [
   {
     label: 'Solutions',
-    href: '#',
+    subMenu: [
+      {
+        label: 'Amazon Services',
+        href: '#',
+      },
+      {
+        label: 'D2C Growth',
+        href: '#',
+      },
+    ],
   },
   {
     label: 'Case Studies',
