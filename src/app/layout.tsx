@@ -6,6 +6,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 import Navbar from '@/components/nav-bar';
 import Header from '@/components/header';
+import Footer from '@/components/footer';
 import theme from '@/theme';
 
 const parkinsans = Parkinsans({
@@ -32,6 +33,7 @@ export default function RootLayout({
                 <Navbar />
               </header> */}
               <main>{children}</main>
+              <Footer />
             </div>
           </ThemeProvider>
         </AppRouterCacheProvider>
