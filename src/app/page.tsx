@@ -7,7 +7,6 @@ import ClientsCarousel from '@/components/clients-carousel';
 import ContactSection from '@/components/sections/home/contact';
 import FeatureCards from '@/components/sections/feature-cards';
 import Testimonials from '@/components/sections/testimonials';
-import Footer from '@/components/footer/footer';
 import FAQ from '@/components/sections/faq';
 import Hero from '@/components/hero';
 import Partners from '@/components/sections/home/partners';
@@ -74,7 +73,6 @@ export default function Home() {
           </Box> */}
         </div>
       </main>
-      <Footer />
     </>
   );
 }
